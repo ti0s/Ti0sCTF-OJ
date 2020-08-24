@@ -1,4 +1,5 @@
 <?php
+    session_start();
     # 随机数 防止难识别 去除 Oo0LI1
     $random = 'ABCDEFGHKMNPRSTUVWXYZabcdefghkmnprstuvwxyz23456789';
     # 验证码
