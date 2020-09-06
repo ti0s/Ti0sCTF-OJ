@@ -25,7 +25,7 @@ INSERT INTO `ti0s_configs` (`id`, `name`, `value`) VALUES
 (2, 'tz_page', '10'),
 (3, 'ph_page', '15'),
 (4, 'notice', '公告：2020/07/31 平台测试版上线\n如无特殊说明，答案格式：flag{xxx}'),
-(5, 'links', '[国家互联网应急中心](http://www.cert.org.cn/)\n[中国互联网络信息中心](http://www.cnnic.net.cn/)\n[工业和信息化部](http://www.miitbeian.gov.cn/)'),
+(5, 'links', '[Ti0s\'Blog](https://www.ti0s.com/)\n[Ti0s\'s Mall](https://www.ti0s.com/)'),
 (6, 'head_flag', 'ti0s'),
 (7, 'super_pass', 'ti0sctf-oj');
 CREATE TABLE `ti0s_submit` (
