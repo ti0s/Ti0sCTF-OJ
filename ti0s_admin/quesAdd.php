@@ -54,7 +54,7 @@ array_multisort(array_column($types, 'type_Num'), SORT_ASC, $types);
                 <select id="L_type" name="type" lay-verify="type">
                 <?php
                     foreach ($types as $key => $value) {
-                        echo '<option value="'.($value['type_ID'] - 1).'">'.$value['type_Name'].'</option>';
+                        echo '<option value="'.intval($value['type_ID']).'">'.$value['type_Name'].'</option>';
                     }
                 ?>
                 </select>
