@@ -63,7 +63,7 @@ $row = $sql->fetch_assoc();
                 <option value="<?=$row['type'];?>"></option>
                 <?php
                     foreach ($types as $key => $value) {
-                        echo '<option value="'.($value['type_ID'] - 1).'">'.$value['type_Name'].'</option>';
+                        echo '<option value="'.intval($value['type_ID']).'">'.$value['type_Name'].'</option>';
                     }
                 ?>
                 </select>
