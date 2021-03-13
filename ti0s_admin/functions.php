@@ -97,7 +97,7 @@ function getInfoList($type,$del=0)
     if($type==='ti0s_challenge'){
         Global $questionType;
         for($j=0;$j<$i;$j++){
-            $data[$j]['type']=$questionType[intval($data[$j]['type']+1)];
+            $data[$j]['type']=$questionType[intval($data[$j]['type']-1)];
         }
         array_multisort(array_column($data,'id'),SORT_DESC,$data);
     }
