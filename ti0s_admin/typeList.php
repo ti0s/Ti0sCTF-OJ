@@ -28,7 +28,6 @@
         <div class="x-body">
             <xblock>
                 <button class="layui-btn layui-btn-danger" onclick="allClicked(this,'is_delete')" name="批量删除">批量删除</button>
-                <button class="layui-btn" onclick="x_admin_show('添加类型','./noticeManage.php?operate=add',600,500)"><i class="layui-icon"></i>添加类型</button>
             </xblock>
               <table class="layui-table">
                 <thead>
