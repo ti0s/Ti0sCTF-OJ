@@ -255,7 +255,7 @@ function getUserScore($userID){
     $sql = $link->query("SELECT * from ti0s_submit 
         inner join (select id as ques_id,score from ti0s_challenge)a 
         on a.ques_id=ti0s_submit.ques_id 
-        where user_id = '$userID'
+        where user_id = '$userID' and is_pass = '1'
         order by `id` ASC");
     $sql or returnInfoData('SQL_ERROR');
     for ($i = 0; $row = $sql->fetch_assoc(); $i++) {
