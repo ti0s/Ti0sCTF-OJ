@@ -13,8 +13,8 @@
 
 * ### Install
 由于 好多人反应 安装出现错误 故这里直接给封装成 Docker镜像 只需要两步即可启动
-安装 docker 的方法 可以百度 根据自己的系统安装
-`docker pull ti0s/ti0sctf:oj`
+安装 docker 的方法 可以百度 根据自己的系统安装<br/>
+`docker pull ti0s/ti0sctf:oj`<br/>
 `docker run -tid -p --hostname ti0sctf 80:80 ti0s/ti0sctf:oj`
 
 * ### Admin
