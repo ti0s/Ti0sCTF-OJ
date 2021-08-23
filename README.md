@@ -12,7 +12,10 @@
 5. 前台分类排序功能以及前台显示题目难度级别
 
 * ### Install
-简易性安装 上传空间/服务器 访问 `/install` 即可安装
+由于 好多人反应 安装出现错误 故这里直接给封装成 Docker镜像 只需要两步即可启动
+安装 docker 的方法 可以百度 根据自己的系统安装
+`docker pull ti0s/ti0sctf:oj`
+`docker run -tid -p --hostname ti0sctf 80:80 ti0s/ti0sctf:oj`
 
 * ### Admin
 前台登录默认管理员账户 `admin / ti0sctf`
